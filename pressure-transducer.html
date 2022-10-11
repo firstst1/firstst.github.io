@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head lang="en">
-        <title>Flow-transducer</title>
-        <link rel="stylesheet" href="styles-flow.css">
+        <title>pressure-transducer</title>
+        <link rel="stylesheet" href="styles-pressure.css">
     </head>
     <body>
 
@@ -27,11 +27,11 @@
         <h1 class="plantsite_5"></h1>
         <h1 class="value_5"></h1>
 
-        <button class="BACK_flow" onclick="location.href='HOME.html'">BACK</button> 
+        <button class="BACK_pressure" onclick="location.href='HOME.html'">BACK</button> 
 
         <script>
             document.addEventListener('DOMContentLoaded',function (){
-                fetch('https://midterm-exam-010723313-2022.herokuapp.com/device?sensor_type=flow-transducer')
+                fetch('https://midterm-exam-010723313-2022.herokuapp.com/device?sensor_type=pressure-transducer')
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);

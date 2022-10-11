@@ -1,0 +1,16 @@
+body{
+    background-image: url('2.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mainname{
+    color:aquamarine;
+    text-align: center;
+    font-size: 100px;
+}
+
+.phuket p {
+    opacity: 0.4;
+}
+
