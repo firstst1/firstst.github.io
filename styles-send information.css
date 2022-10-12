@@ -1,26 +1,15 @@
-.mainname{
-    color:aquamarine;
-    text-align: center;
-    font-size: 100px;
-}
-
-.BACK_level{
+.BACK_send-information{
     background-color: #1197cc;
     box-shadow: #094c66 4px 4px 0px;
     border-radius: 8px;
 }
-.BACK-level:active{
+.BACK_send-information:active{
     transform: translateY(4px) translateX(4px);
     box-shadow: #094c66 0px 0px 0px;
 }
 
 body{
     background-image: url('2.svg');
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-attachment: fixed;
-}
-.center{
-
-    margin-left: 570px;
-
 }

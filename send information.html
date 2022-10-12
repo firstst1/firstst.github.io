@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>send information</title>
+        <link rel="stylesheet" href="styles-send information.css">
+    </head>
+    
+    <body>
+
+        <div class="information">
+            <form action="https://midterm-exam-010723313-2022.herokuapp.com/student_post" method="post">
+
+                <input placeholder="st_id" type="text" name="st_id">
+                <input placeholder="st_name" type="text" name="st_name">
+                <input placeholder="sensor_name" type="text" name="sensor_name">
+                <input placeholder="sensor_type" type="text" name="sensor_type">
+                <input placeholder="sensor_unit" type="text" name="sensor_unit">
+                <input placeholder="sensor_value" type="text" name="sensor_value">
+                <input type="submit" value="submit">
+
+            </form>
+        </div>
+
+        <button class="BACK_send-information" onclick="location.href='HOME.html'">BACK</button> 
+
+    </body>
+    
+</html>
