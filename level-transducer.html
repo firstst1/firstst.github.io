@@ -4,40 +4,67 @@
 <head lang="en">
     <title>Level-transducer</title>
     <link rel="stylesheet" href="styles-level.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="mainname">Level-transducer</div>
-    <br />
+    <br/><div class="mainname">Level-transducer</div><br />
 
-    <div class="center"> 
-        <h1 class="name_1"></h1>
-        <h1 class="type_1"></h1>
-        <h1 class="unit_1"></h1>
-        <h1 class="range_1"></h1>
-        <h1 class="plantsite_1"></h1>
-        <h1 class="value_1"></h1>
-        <br />
-        <h1 class="name_3"></h1>
-        <h1 class="type_3"></h1>
-        <h1 class="unit_3"></h1>
-        <h1 class="range_3"></h1>
-        <h1 class="plantsite_3"></h1>
-        <h1 class="value_3"></h1>
-        <br />
-        <h1 class="name_5"></h1>
-        <h1 class="type_5"></h1>
-        <h1 class="unit_5"></h1>
-        <h1 class="range_5"></h1>
-        <h1 class="plantsite_5"></h1>
-        <h1 class="value_5"></h1>
-        <br />
-    </div> 
+    <br/><br/>
+
+    <div class="Table_1">
+    <table>
+        <tbody>
+            <tr><td>name</td><td class="name_1"></td></tr>
+            <tr><td>type</td><td class="type_1"></td></tr>
+            <tr><td>unit</td><td class="unit_1"></td></tr>
+            <tr><td>range</td><td class="range_1"></td></tr>
+            <tr><td>plant-site</td><td class="plantsite_1"></td></tr>
+            <tr><td>value</td><td class="value_1"></td></tr>
+        </tbody>
+    </table>
+    </div>
+
+    <br/><br/><br/>
+
+    <div class="Table_2">
+        <table>
+            <tbody>
+                <tr><td>name</td><td class="name_3"></td></tr>
+                <tr><td>type</td><td class="type_3"></td></tr>
+                <tr><td>unit</td><td class="unit_3"></td></tr>
+                <tr><td>range</td><td class="range_3"></td></tr>
+                <tr><td>plant-site</td><td class="plantsite_3"></td></tr>
+                <tr><td>value</td><td class="value_3"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br/><br/><br/>
+
+    <div class="Table_3">
+        <table>
+            <tbody>
+                <tr><td>name</td><td class="name_5"></td></tr>
+                <tr><td>type</td><td class="type_5"></td></tr>
+                <tr><td>unit</td><td class="unit_5"></td></tr>
+                <tr><td>range</td><td class="range_5"></td></tr>
+                <tr><td>plant-site</td><td class="plantsite_5"></td></tr>
+                <tr><td>value</td><td class="value_5"></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br/><br/><br/>
     
-    <div align = "center">
+    <div class = "center">
         <button class="BACK_level" onclick="location.href='HOME.html'" >BACK</button>
     </div>
+
+    <br/><br/><br/>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -67,29 +94,28 @@
                     const plantsite_6 = data[2]["plant-site"];
                     const value_6 = data[2].value;
 
-                    document.querySelector('.name_1').innerHTML = `name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${name_2} `;
-                    document.querySelector('.type_1').innerHTML = `type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${type_2} `;
-                    document.querySelector('.unit_1').innerHTML = `unit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${unit_2} `;
-                    document.querySelector('.range_1').innerHTML = `range &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${range_2} `;
-                    document.querySelector('.plantsite_1').innerHTML = `plant-site : ${plantsite_2} `;
-                    document.querySelector('.value_1').innerHTML = `value &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${value_2} `;
+                    document.querySelector('.name_1').innerHTML = `:&nbsp;&nbsp;${name_2} `;
+                    document.querySelector('.type_1').innerHTML = `:&nbsp;&nbsp;${type_2} `;
+                    document.querySelector('.unit_1').innerHTML = `:&nbsp;&nbsp;${unit_2} `;
+                    document.querySelector('.range_1').innerHTML = `:&nbsp;&nbsp;${range_2} `;
+                    document.querySelector('.plantsite_1').innerHTML = `:&nbsp;&nbsp;${plantsite_2} `;
+                    document.querySelector('.value_1').innerHTML = `:&nbsp;&nbsp;${value_2} `;
 
-                    document.querySelector('.name_3').innerHTML = `name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${name_4} `;
-                    document.querySelector('.type_3').innerHTML = `type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${type_4} `;
-                    document.querySelector('.unit_3').innerHTML = `unit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${unit_4} `;
-                    document.querySelector('.range_3').innerHTML = `range &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${range_4} `;
-                    document.querySelector('.plantsite_3').innerHTML = `plant-site : ${plantsite_4} `;
-                    document.querySelector('.value_3').innerHTML = `value &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${value_4} `;
+                    document.querySelector('.name_3').innerHTML = `:&nbsp;&nbsp;${name_4} `;
+                    document.querySelector('.type_3').innerHTML = `:&nbsp;&nbsp;${type_4} `;
+                    document.querySelector('.unit_3').innerHTML = `:&nbsp;&nbsp;${unit_4} `;
+                    document.querySelector('.range_3').innerHTML = `:&nbsp;&nbsp;${range_4} `;
+                    document.querySelector('.plantsite_3').innerHTML = `:&nbsp;&nbsp;${plantsite_4} `;
+                    document.querySelector('.value_3').innerHTML = `:&nbsp;&nbsp;${value_4} `;
 
-                    document.querySelector('.name_5').innerHTML = `name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${name_6} `;
-                    document.querySelector('.type_5').innerHTML = `type &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${type_6} `;
-                    document.querySelector('.unit_5').innerHTML = `unit &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${unit_6} `;
-                    document.querySelector('.range_5').innerHTML = `range &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${range_6} `;
-                    document.querySelector('.plantsite_5').innerHTML = `plant-site : ${plantsite_6} `;
-                    document.querySelector('.value_5').innerHTML = `value &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${value_6} `;
+                    document.querySelector('.name_5').innerHTML = `:&nbsp;&nbsp;${name_6} `;
+                    document.querySelector('.type_5').innerHTML = `:&nbsp;&nbsp;${type_6} `;
+                    document.querySelector('.unit_5').innerHTML = `:&nbsp;&nbsp;${unit_6} `;
+                    document.querySelector('.range_5').innerHTML = `:&nbsp;&nbsp;${range_6} `;
+                    document.querySelector('.plantsite_5').innerHTML = `:&nbsp;&nbsp;${plantsite_6} `;
+                    document.querySelector('.value_5').innerHTML = `:&nbsp;&nbsp;${value_6} `;
                 });
         });
-
 
     </script>
 

@@ -11,19 +11,33 @@ body{
     font-size: 100px;
 }
 
-/* .button_0{
-    text-align: center;
-} */
+.Second_name{
+    color:rgb(252, 252, 252);
+    position: absolute;
+    top: 130px;
+    left: 970px;
+    font-size: 30px;
+}
+
+.buttonAll{
+    margin-left: 350px;
+
+}
 
 /* ---------button 1-------- */
 .btn-1{
+    background-color: rgb(20, 255, 251);
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
     text-align: center;
     overflow: hidden;
     color: #000000;
     border-radius: 30px;
-    box-shadow:  0px -0px 0px 0px;
-rgba(143, 64, 248, .5), 0px 0px 0px 0px
-rgba(39, 200, 255, .5); 
+    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5); 
 }
 .btn-1:hover{
     transform: translate(0,-3px);
@@ -46,13 +60,18 @@ rgba(39, 200, 255, .5);
 }
 /* ---------button 2-------- */
 .btn-2{
+    background-color: rgb(20, 255, 251);
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
     text-align: center;
     overflow: hidden;
     color: #000;
     border-radius: 30px;
-    box-shadow:  0px -0px 0px 0px;
-rgba(143, 64, 248, .5), 0px 0px 0px 0px
-rgba(39, 200, 255, .5); 
+    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5); 
 }
 .btn-2:hover{
     transform: translate(0,-6px);
@@ -63,11 +82,11 @@ rgba(39, 200, 255, .5);
 }
 .btn-2::after{
     content: '';
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 200px;
-    left: 565px;
+    top: 37px;
+    left: 355px;
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
@@ -75,13 +94,18 @@ rgba(39, 200, 255, .5);
 }
 /* ---------button 3-------- */
 .btn-3{
+    background-color: rgb(20, 255, 251);
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
     text-align: center;
     overflow: hidden;
     color: #000;
     border-radius: 30px;
-    box-shadow:  0px -0px 0px 0px;
-rgba(143, 64, 248, .5), 0px 0px 0px 0px
-rgba(39, 200, 255, .5); 
+    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5); 
 }
 .btn-3:hover{
     transform: translate(0,-6px);
@@ -92,11 +116,11 @@ rgba(39, 200, 255, .5);
 }
 .btn-3::after{
     content: '';
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 200px;
-    left: 565px;
+    top: 37px;
+    left: 1080px;
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
@@ -104,13 +128,18 @@ rgba(39, 200, 255, .5);
 }
 /* ---------button 4-------- */
 .btn-4{
+    background-color: rgb(20, 255, 251);
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
     text-align: center;
     overflow: hidden;
     color: #000;
     border-radius: 30px;
-    box-shadow:  0px -0px 0px 0px;
-rgba(143, 64, 248, .5), 0px 0px 0px 0px
-rgba(39, 200, 255, .5); 
+    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5); 
 }
 .btn-4:hover{
     transform: translate(0,-6px);
@@ -121,11 +150,11 @@ rgba(39, 200, 255, .5);
 }
 .btn-4::after{
     content: '';
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 200px;
-    left: 565px;
+    top: 37px;
+    left: 1080px;
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
@@ -133,13 +162,18 @@ rgba(39, 200, 255, .5);
 }
 /* ---------button 5-------- */
 .btn-5{
+    background-color: rgb(20, 255, 251);
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
     text-align: center;
     overflow: hidden;
     color: #000;
     border-radius: 30px;
-    box-shadow:  0px -0px 0px 0px;
-rgba(143, 64, 248, .5), 0px 0px 0px 0px
-rgba(39, 200, 255, .5); 
+    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5); 
 }
 .btn-5:hover{
     transform: translate(0,-6px);
@@ -150,13 +184,60 @@ rgba(39, 200, 255, .5);
 }
 .btn-5::after{
     content: '';
-    width: 400px;
-    height: 400px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 200px;
-    left: 565px;
+    top: 37px;
+    left: 1080px;
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
     transition: all .25s ease;
 }
+
+/* ------------information------------- */
+
+.information{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    font-size: 20px;
+}
+
+.information_1{
+    text-align: center;
+}
+
+.information_2{
+    /* text-align: center; */
+    border-radius: 300px;
+    font-family: 'Fredoka One', cursive;
+}
+
+/* ---------submit-------- */
+.submit{
+    background-color: rgb(43, 255, 20);
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    color: #000;
+    border-radius: 30px;
+    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5); 
+}
+.submit:hover{
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25),-10px 10px 25px 0px rgba(39, 200, 255, .25);
+}
+.submit:hover::after{
+    transform: rotate(150deg);
+}
+
+.submit_1{
+    text-align: center;
+}
+
