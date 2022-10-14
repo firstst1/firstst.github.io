@@ -21,7 +21,7 @@ body{
 
 .buttonAll{
     margin-left: 350px;
-
+    font-size: 30px;
 }
 
 /* ---------button 1-------- */
@@ -208,9 +208,10 @@ body{
     text-align: center;
 }
 
-.information_2{
-    /* text-align: center; */
-    border-radius: 300px;
+input{
+    width: 250px;
+    height: 20px;
+    border-radius: 200px;
     font-family: 'Fredoka One', cursive;
 }
 
