@@ -1,6 +1,6 @@
 body{
     background-image: url('2.svg');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   /*---คำสั่งนี้จะคู่กับ background-image เพื่อจะสั่งให้พื้นหลังนำรูปมาใช้ซ้ำ---*/
     background-attachment: fixed;
     font-family: 'Fredoka One', cursive;
 }
@@ -11,7 +11,7 @@ body{
     font-size: 100px;
 }
 
-.Second_name{
+.ID{
     color:rgb(252, 252, 252);
     position: absolute;
     top: 130px;
@@ -27,36 +27,36 @@ body{
 /* ---------button 1-------- */
 .btn-1{
     background-color: rgb(20, 255, 251);
-    width: 200px;
-    height: 60px;
-    padding: 20px;
-    margin: 20px;
-    font-family: 'Fredoka One', cursive;
-    font-size: 15px;
-    text-align: center;
-    overflow: hidden;
-    color: #000000;
-    border-radius: 30px;
-    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5); 
+    width: 200px;   /*---กว้าง---*/
+    height: 60px;   /*---สูง---*/
+    padding: 20px;  /*---ระยะห่างของกรอบกับตัวหนังสือด้านใน--*/
+    margin: 20px;   /*---ระยะห่างกับวัตถุอื่นๆ--*/
+    font-family: 'Fredoka One', cursive;    /*---font ด้านในกรอบ---*/
+    font-size: 15px;    /*---ขนาดตัวอักษร---*/
+    text-align: center; /*---ให้อยู่ตำเเหน่งตรงกลาง--*/
+    overflow: hidden;   /*---ซ่อนข้อความส่วนเกิน---*/
+    color: #000000;   /*---สีตัวอักษร---*/
+    border-radius: 30px;    /*---ขอบมน---*/
+    box-shadow:  0px -0px 0px 0px rgba(143, 64, 248, .5), 0px 0px 0px 0px rgba(39, 200, 255, .5);   /*---เงา---*/
 }
-.btn-1:hover{
-    transform: translate(0,-3px);
-    box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25),-10px 10px 25px 0px rgba(39, 200, 255, .25);
+.btn-1:hover{ /*---ดักจับเหตุการณ์ ผู้ใช้งานวางเมาส์ไว้บน Elements---*/
+    transform: translate(0,-3px);   /*---ปุ่มเด้ง---*/
+    box-shadow: 10px -10px 25px 0px rgba(143, 64, 248, .25),-10px 10px 25px 0px rgba(39, 200, 255, .25);    /*---เงา---*/
 }
-.btn-1:hover::after{
-    transform: rotate(150deg);
+.btn-1:hover::after{    /*---ดักจับเหตุการณ์ หลังเอาเมาท์ออก---*/
+    transform: rotate(150deg); /*---ให้หมุน 150degree---*/
 }
-.btn-1::after{
-    content: '';
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 37px;
-    left: 355px;
+.btn-1::after{      /*---ด้านหลัง---*/
+    content: "";    /*---ข้อความด้านใน---*/
+    width: 100px;   /*---กว้าง---*/
+    height: 100px;  /*---สูง---*/
+    position: absolute; /*---ให้เป็นอิสระ---*/
+    top: 37px;  /*---ระยะห่างจากด้านบนจอ---*/
+    left: 355px;    /*---ระยะห่างจากซ้ายจอ---*/
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
-    z-index: -1;
-    transition: all .25s ease;
+    z-index: -1;    /*---การซ้อนทับของlayout ในแกน z---*/
+    transition: all 0.75s ease;  /*---การเปลี่ยนแปลงจาก value เก่าไปสู่ value ใหม่---*/
 }
 /* ---------button 2-------- */
 .btn-2{
@@ -90,7 +90,7 @@ body{
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
-    transition: all .25s ease;
+    transition: all .75s ease;
 }
 /* ---------button 3-------- */
 .btn-3{
@@ -124,7 +124,7 @@ body{
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
-    transition: all .25s ease;
+    transition: all .75s ease;
 }
 /* ---------button 4-------- */
 .btn-4{
@@ -158,7 +158,7 @@ body{
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
-    transition: all .25s ease;
+    transition: all .75s ease;
 }
 /* ---------button 5-------- */
 .btn-5{
@@ -192,23 +192,23 @@ body{
     background-color: #ff3cac;
     background-image: linear-gradient(225deg, #27d86c 0%, #26caf8 50%, #c625d0 100%);
     z-index: -1;
-    transition: all .25s ease;
+    transition: all .75s ease;
 }
 
 /* ------------information------------- */
 
-.information{
+.information{   /*---ทั้งหมด ส่งค่า---*/
     position: absolute;
     top: 200px;
     left: 800px;
     font-size: 20px;
 }
 
-.information_1{
+.information_1{     /*---ชื่อหัวข้อ---*/
     text-align: center;
 }
 
-input{
+input{      /*---เเต่ละช่องกรอกข้อมูล---*/
     width: 250px;
     height: 20px;
     border-radius: 200px;
@@ -216,7 +216,12 @@ input{
 }
 
 /* ---------submit-------- */
-.submit{
+
+.submit_1{  /*---center ปุ่มส่งค่า---*/
+    text-align: center;
+}
+
+.submit{    /*---ตกเเต่ง ปุ่มส่งค่า---*/
     background-color: rgb(43, 255, 20);
     width: 100px;
     height: 60px;
@@ -236,9 +241,5 @@ input{
 }
 .submit:hover::after{
     transform: rotate(150deg);
-}
-
-.submit_1{
-    text-align: center;
 }
 

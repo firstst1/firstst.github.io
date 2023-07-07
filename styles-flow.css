@@ -1,6 +1,6 @@
 body{
     background-image: url('2.svg');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   /*---คำสั่งนี้จะคู่กับ background-image เพื่อจะสั่งให้พื้นหลังนำรูปมาใช้ซ้ำ---*/
     background-attachment: fixed;
     font-family: 'Fredoka One', cursive;
 }

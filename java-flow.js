@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded',function (){
+document.addEventListener('DOMContentLoaded',function (){   /*---เมื่อโค๊ดโหลดเสร็จทั้งหน้าเเล้วจะเข้าฟังก์ชั่นนี้---*/
     fetch('https://midterm-exam-010723313-2022.herokuapp.com/device?sensor_type=flow-transducer')
-    .then(response => response.json())
+    .then(response => response.json())  /*---เเปลงข้อมูลให้เป็น json---*/
     .then(data => {
         console.log(data);
 
-        const name_2      = data[0].name;
+        const name_2      = data[0].name;   /*--- อ่านค่า Arar เเถวที่ 0 หลักที่ 1 ---*/
         const type_2      = data[0].type;
         const unit_2      = data[0].unit;
         const range_2     = data[0].range;
